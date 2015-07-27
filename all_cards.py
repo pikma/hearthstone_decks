@@ -34,8 +34,6 @@ def get_crafting_costs():
   for card_set in CARD_SETS:
     for card in response.body[card_set]:
       name = str(card[u'name'])
-      if name == u'Acidic Swamp Ooze':
-        print card
       if card[u'cardSet'] == u'Basic':
         cards[name] = 0
       else:
