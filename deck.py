@@ -131,12 +131,8 @@ for card, num in COLLECTION.iteritems():
     raise 'Invalid card in collection: \'' + str(card) + '\''
 
 sorted_decks = sorted(decks, key=lambda d : deck_cost(d.cards, COLLECTION))
-# i = 0
 for deck in sorted_decks:
   if deck.name == 'Basic':
     continue
   print '\nCost:', deck_cost(deck.cards, COLLECTION)
   print print_deck(deck, COLLECTION)
-  # i += 1
-  # if i == 20:
-    # break
