@@ -1,0 +1,666 @@
+<tbody><tr>
+        <th>Deck</th>
+        <th>Reachable Ranks</th>
+        <th>Mana Curve</th>
+        <th>Cost</th>
+        <th>Last Update</th>
+      </tr>
+        <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/paladin-pirate-gvg-deck"> Pirate</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">3-Legend</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:4.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:14.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:12.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.0px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:6.0px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">9,160 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/07/08</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/basic-paladin-deck">Basic</a><span class="expansion_markers"></span>
+      </td>
+      <td class="deck_presentation_rank">20-15</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:16.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:8.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:4.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:4.0px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:8.0px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">0 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/06/29</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/paladin-hobgoblin-aggro-rush-gvg-deck"> Hobgoblin Aggro/Rush</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">3-Legend</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:4.444444444444445px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:13.333333333333332px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:8.88888888888889px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">2,640 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/06/17</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/legendary-paladin-dragon-control-brm-deck">Legendary Dragon Control</a><span class="expansion_markers"> <span class="expansion_marker">BrM</span>  <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">Legend</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:17.142857142857142px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:14.285714285714286px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:17.142857142857142px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:17.142857142857142px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">6,540 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/06/11</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/legendary-paladin-control-brm-deck">Legendary Control</a><span class="expansion_markers"> <span class="expansion_marker">BrM</span>  <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">Legend</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:17.142857142857142px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:17.142857142857142px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:8.571428571428571px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:11.428571428571427px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:11.428571428571427px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">9,380 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/06/04</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/legendary-paladin-midrange-brm-deck">Legendary Midrange</a><span class="expansion_markers"> <span class="expansion_marker">BrM</span>  <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">Legend</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.8571428571428568px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:17.142857142857142px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:17.142857142857142px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:14.285714285714286px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:5.7142857142857135px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:8.571428571428571px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">7,380 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/04/08</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/cheap-paladin-gvg-deck">Cheap</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span></span>
+      </td>
+      <td class="deck_presentation_rank">10-8</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:12.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:12.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:6.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.0px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:8.0px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">1,000 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/03/19</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/paladin-aggro-rush-gvg-deck"> Aggro/Rush</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">3-Legend</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:13.333333333333332px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:11.11111111111111px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:15.555555555555555px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.2222222222222223px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:4.444444444444445px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">2,360 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/02/19</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/legendary-paladin-control-gvg-deck">Legendary Control</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">Legend</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.8571428571428568px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:14.285714285714286px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:14.285714285714286px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.8571428571428568px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:11.428571428571427px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">8,580 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/02/14</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/mid-budget-paladin-control-gvg-deck">Mid Budget Control</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">7-5</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.8571428571428568px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:14.285714285714286px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:17.142857142857142px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.8571428571428568px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:8.571428571428571px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">4,280 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/02/14</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/mid-budget-paladin-midrange-gvg-deck">Mid Budget Midrange</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">5-3</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:12.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:12.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:8.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.0px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:4.0px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">6,340 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/01/15</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/legendary-paladin-midrange-gvg-deck">Legendary Midrange</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">Legend</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.5px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:15.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:15.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:15.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.5px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:5.0px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">9,440 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2015/01/14</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/legendary-paladin-buff-midrange-gvg-deck">Legendary Buff Midrange</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">Legend</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:11.11111111111111px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:13.333333333333332px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:13.333333333333332px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:4.444444444444445px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:4.444444444444445px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">9,240 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2014/12/16</td>
+    </tr>
+
+    <tr>
+      <td class="deck_presentation_name">
+        <span class="sprite_14x14_icons sprite_14x14_icons_paladin"></span>
+        <a href="http://www.icy-veins.com/hearthstone/mid-budget-paladin-buff-midrange-gvg-deck">Mid Budget Buff Midrange</a><span class="expansion_markers"> <span class="expansion_marker">GvG</span>  <span class="expansion_marker">Naxx</span></span>
+      </td>
+      <td class="deck_presentation_rank">7-5</td>
+      <td class="deck_presentation_mana_curve"><div class="mana_curve">
+  <div class="mana_bars"><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:0.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:5.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:12.5px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:17.5px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:20.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:15.0px;"></span>
+      </span>
+    </div><div>
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.5px;"></span>
+      </span>
+    </div><div style="margin-right:0px;">
+      <span class="mana_bar_container">
+        <span class="mana_bar" style="height:2.5px;"></span>
+      </span>
+    </div>
+  </div>
+</div>
+</td>
+      <td class="deck_presentation_cost">4,940 <img src="http://static.icy-veins.com/images/hearthstone/arcane-dust.png" alt="Arcane Dust" title="Arcane Dust"></td>
+      <td class="deck_presentation_last_update">2014/12/12</td>
+    </tr>
+
+    </tbody>

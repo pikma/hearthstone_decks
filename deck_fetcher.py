@@ -1,0 +1,90 @@
+import re
+import urllib2
+
+from util import *
+
+class Deck:
+  def __init__(self, cards, url, name, reachable_ranks, last_update):
+    """
+    Args:
+      cards: map {string -> int}
+    """
+    self.url = url
+    self.name = name
+    self.reachable_ranks = reachable_ranks
+    self.last_update = last_update
+    self.cards = cards
+
+    num_cards = 0
+    for card, num in self.cards.iteritems():
+      num_cards += num
+    if num_cards != 30:
+      raise Exception('Invalid deck: ' + str(num_cards) + ' cards.\n' + str(self))
+
+  def __str__(self):
+    return (self.name
+        + '\n  ' + self.url
+        + '\n  ' + self.reachable_ranks
+        + '\n  ' + self.last_update
+        + '\n    '
+        + '\n    '.join(
+          [str(num) + ' ' + card for card, num in self.cards.iteritems()]))
+
+@cache_result_in('decks.pickle')
+def get_decks():
+  decks = []
+  for file_name in FILE_NAMES:
+    print 'Fetching from', file_name
+    decks += _fetch_decks(file_name)
+  return decks
+
+def _fetch_decks(file_name):
+  unfetched_decks = []
+  with open(file_name) as f:
+    for line in f:
+      m = re.search('<a href="(http://[^"]*)">([^<]*)</a>', line)
+      if m:
+        deck = {}
+        deck['url'] = m.group(1)
+        deck['name'] = m.group(2)
+        continue
+      m = re.search('<td class="deck_presentation_rank">([^<]*)</td>', line)
+      if m:
+        deck['reachable_ranks'] = m.group(1)
+        continue
+      m = re.search('<td class="deck_presentation_last_update">([^<]*)</td>', line)
+      if m:
+        deck['last_update'] = m.group(1)
+        unfetched_decks.append(deck)
+
+  decks = [Deck(_fetch_cards(d['url']), **d) for d in unfetched_decks]
+  return decks
+
+
+def _fetch_cards(url):
+  cards = {}
+  response = urllib2.urlopen(url)
+  html = response.read()
+  for line in html.splitlines():
+    m = re.search(
+        '<li>(\d)x\s+<a class="hearthstone_tooltip_link q\d" [^>]*>([^<]*)</a>(\s*<span class="expansion_marker">[^<]*</span>)?</li>$',
+        line)
+    if m:
+      name = m.group(2)
+      number = m.group(1)
+      cards[name] = int(number)
+
+  return cards
+
+FILE_NAMES = [
+  'decks/druid_decks.txt',
+  'decks/hunter_decks.txt',
+  'decks/mage_decks.txt',
+  'decks/paladin_decks.txt',
+  'decks/priest_decks.txt',
+  'decks/rogue_decks.txt',
+  'decks/shaman_decks.txt',
+  'decks/warlock_decks.txt',
+  'decks/warrior_decks.txt',
+]
+

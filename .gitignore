@@ -58,3 +58,6 @@ target/
 
 # Pickled objects.
 *.pickle
+
+# Running script that contains the key.
+run.sh
