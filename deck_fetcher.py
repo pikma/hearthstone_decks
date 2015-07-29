@@ -30,15 +30,41 @@ class Deck:
         + '\n    '.join(
           [str(num) + ' ' + card for card, num in self.cards.iteritems()]))
 
+OTHER_DECKS = [Deck(
+  cards={
+    'Mortal Coil': 1,
+    'Power Overwhelming': 2,
+    'Abusive Sergeant': 2,
+    'Flame Imp': 2,
+    'Voidwalker': 2,
+    'Dire Wolf Alpha': 2,
+    'Haunted Creeper': 2,
+    'Ironbeak Owl': 1,
+    'Knife Juggler': 2,
+    'Nerubian Egg': 2,
+    'Impl Gang Boss': 2,
+    'Void Terror': 1,
+    'Imp-losion': 2,
+    'Dark Iron Dwarf': 1,
+    'Defender of Argus': 2,
+    'Voidcaller': 2,
+    'Doomguard': 2},
+   url='https://www.youtube.com/watch?v=DBjJ_H3GDNk',
+   name='Trump\'s Zoo',
+   reachable_ranks='-',
+   last_update='2015-07-11')]
+
+
 @cache_result_in('decks.pickle')
 def get_decks():
   decks = []
-  for file_name in FILE_NAMES:
+  for file_name in ICY_VEIN_DECK_FILE_NAMES:
     print 'Fetching from', file_name
-    decks += _fetch_decks(file_name)
+    decks += _fetch_decks_from_icy_veins(file_name)
+  decks.extend(OTHER_DECKS)
   return decks
 
-def _fetch_decks(file_name):
+def _fetch_decks_from_icy_veins(file_name):
   unfetched_decks = []
   with open(file_name) as f:
     for line in f:
@@ -76,7 +102,7 @@ def _fetch_cards(url):
 
   return cards
 
-FILE_NAMES = [
+ICY_VEIN_DECK_FILE_NAMES = [
   'decks/druid_decks.txt',
   'decks/hunter_decks.txt',
   'decks/mage_decks.txt',
