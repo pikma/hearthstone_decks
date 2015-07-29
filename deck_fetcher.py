@@ -42,7 +42,7 @@ OTHER_DECKS = [Deck(
     'Ironbeak Owl': 1,
     'Knife Juggler': 2,
     'Nerubian Egg': 2,
-    'Impl Gang Boss': 2,
+    'Imp Gang Boss': 2,
     'Void Terror': 1,
     'Imp-losion': 2,
     'Dark Iron Dwarf': 1,
