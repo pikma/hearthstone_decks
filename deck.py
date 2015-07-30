@@ -121,9 +121,12 @@ def print_deck(deck, collection):
   cards_str = []
   for card, num in deck.cards.iteritems():
     s = str(num) + ' ' + card
-    num_in_collection = min(collection.get(card, 0), num)
-    if num_in_collection > 0:
-      s += ' (' + str(num_in_collection) + '/' + str(num) + ')'
+    cost = crafting_cost(card, collection)
+    if cost == 0:
+      s += ' (-)'
+    else:
+      num_missing = max(0, num - collection.get(card, 0))
+      s += ' (' + str(num_missing) + ' * ' + str(cost) + ')'
     cards_str.append(s)
 
   return (deck.name
