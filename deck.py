@@ -12,6 +12,7 @@ COLLECTION = {
     'Ancient of War': 1,
     'Annoy-o-Tron': 1,
     'Azure Drake': 1,
+    'Baron Rivendare': 1,
     'Battle Rage': 1,
     'Betrayal': 1,
     'Blade Flurry': 1,
@@ -22,7 +23,9 @@ COLLECTION = {
     'Conceal': 1,
     'Cruel Taskmaster': 1,
     'Cult Master': 2,
+    'Dancing Swords': 2,
     'Dark Iron Dwarf': 1,
+    'Deathlord': 2,
     'Defias Ringleader': 1,
     'Doomguard': 2,
     'Druid of the Fang': 1,
@@ -70,9 +73,10 @@ COLLECTION = {
     'Shieldbearer': 1,
     'Siege Engine': 1,
     'Silence': 2,
+    'Sludge Belcher': 2,
+    'Spectral Knight': 2,
     'Spellbender': 1,
     'Spellbreaker': 1,
-    'Sludge Belcher': 2,
     'Spider Tank': 2,
     'Stampeding Kodo': 1,
     'Stoneskin Gargoyle': 2,
@@ -135,7 +139,7 @@ print 'Got ' + str(len(decks)) + ' decks'
 # Validate collection.
 for card, num in COLLECTION.iteritems():
   if card != 'Old Murk-Eye' and card not in _CRAFTING_COSTS:
-    raise 'Invalid card in collection: \'' + str(card) + '\''
+    raise Exception('Invalid card in collection: \'' + str(card) + '\'')
 
 sorted_decks = sorted(decks, key=lambda d : deck_cost(d.cards, COLLECTION))
 for deck in sorted_decks:
