@@ -148,5 +148,6 @@ sorted_decks = sorted(decks, key=lambda d : deck_cost(d.cards, COLLECTION))
 for deck in sorted_decks:
   if deck.name == 'Basic':
     continue
-  print '\nCost:', deck_cost(deck.cards, COLLECTION)
+  print ('\nCost: ' + str(deck_cost(deck.cards, COLLECTION)) +
+         ' (/' + str(deck_cost(deck.cards, {})) + ')')
   print print_deck(deck, COLLECTION)
