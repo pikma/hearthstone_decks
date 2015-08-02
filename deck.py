@@ -161,7 +161,7 @@ for card, num in COLLECTION.iteritems():
   if num_unused > 0 and disenchant_gain > 0:
     total_disenchant_gain += disenchant_gain * num_unused
     print '  ' + card + ' (' + str(num_unused) + ' * ' + str(disenchant_gain) + ')'
-print 'Total: ' + str(total_disenchant_gain) + 'dust \n'
+print 'Total: ' + str(total_disenchant_gain) + ' dust \n'
 
 
 sorted_decks = sorted(decks, key=lambda d : deck_cost(d.cards, COLLECTION))
