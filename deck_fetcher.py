@@ -142,7 +142,7 @@ def _fetch_decks_from_hearthpwn():
           line)
       if m:
         deck = {}
-        deck['name'] = m.group(2)
+        deck['name'] = m.group(2).replace('&#x27;', '\'')
         deck['url'] = 'http://www.hearthpwn.com' + m.group(1)
         continue
       m = re.search('<abbr class="tip standard-date standard-datetime" [^>]*>([^<]*)</abbr>$',

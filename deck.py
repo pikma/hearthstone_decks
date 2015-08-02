@@ -5,6 +5,7 @@ from all_cards import get_crafting_costs
 COLLECTION = {
     'Abomination': 1,
     'Acolyte of Pain': 1,
+    'Aldor Peacekeeper': 1,
     'Alexstrasza': 1,
     'Amani Berserker': 2,
     'Ancestor\'s Call': 1,
@@ -13,7 +14,7 @@ COLLECTION = {
     'Annoy-o-Tron': 1,
     'Azure Drake': 1,
     'Baron Rivendare': 1,
-    'Battle Rage': 1,
+    'Battle Rage': 2,
     'Betrayal': 1,
     'Blade Flurry': 1,
     'Bloodsail Raider': 1,
@@ -58,18 +59,20 @@ COLLECTION = {
     'Mechanical Yeti': 1,
     'Metaltooth Leaper': 1,
     'Misdirection': 1,
-    'Mogu\'shan Warden': 1,
+    'Mogu\'shan Warden': 2,
     'Naturalize': 2,
     'Nerub\'ar Weblord': 2,
     'Nerubian Egg': 2,
     'Noble Sacrifice': 1,
     'Power Overwhelming': 1,
     'Power of the Wild': 1,
+    'Preparation': 1,
     'Puddlestomper': 2,
     'Raging Worgen': 2,
     'Scarlet Crusader': 1,
     'Scavenging Hyena': 1,
     'Secretkeeper': 1,
+    'Shadowstep': 1,
     'Shieldbearer': 1,
     'Siege Engine': 1,
     'Silence': 2,
@@ -158,6 +161,9 @@ for card, num in COLLECTION.iteritems():
     disenchant_gain = 400
   else:
     disenchant_gain = DISENCHANT_GAINS[cost]
+  if disenchant_gain == 400:
+    # Never disenchant legendaries.
+    continue
   if num_unused > 0 and disenchant_gain > 0:
     total_disenchant_gain += disenchant_gain * num_unused
     print '  ' + card + ' (' + str(num_unused) + ' * ' + str(disenchant_gain) + ')'
