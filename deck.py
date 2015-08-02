@@ -106,7 +106,11 @@ def crafting_cost(card, collection):
         'Murloc Raider': 1,
         'Bluegill Warrior': 1,
         'Grimscale Oracle': 1,
-        'Murloc Tidehunter': 1
+        'Murloc Tidehunter': 1,
+        'Coldlight Oracle': 1,
+        'Coldlight Seer': 1,
+        'Murloc Tidecaller': 1,
+        'Murloc Warleader': 1,
       }, collection)
   return _CRAFTING_COSTS[card]
 
@@ -158,7 +162,7 @@ for card, num in COLLECTION.iteritems():
   cost = crafting_cost(card, {})
   DISENCHANT_GAINS = {0: 0, 40: 5, 100: 20, 400: 100, 1600: 400}
   if card == 'Old Murk-Eye':
-    disenchant_gain = 400
+    disenchant_gain = 0
   else:
     disenchant_gain = DISENCHANT_GAINS[cost]
   if disenchant_gain == 400:
