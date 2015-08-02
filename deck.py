@@ -137,12 +137,32 @@ def print_deck(deck, collection):
         ['\n    ' + card_str for card_str in cards_str]))
 
 decks = get_decks()
-print 'Got ' + str(len(decks)) + ' decks'
+print 'Got ' + str(len(decks)) + ' decks\n'
 
 # Validate collection.
 for card, num in COLLECTION.iteritems():
   if card != 'Old Murk-Eye' and card not in _CRAFTING_COSTS:
     raise Exception('Invalid card in collection: \'' + str(card) + '\'')
+
+# Show cards that can be disanchanted
+print 'Useless cards:'
+total_disenchant_gain = 0
+for card, num in COLLECTION.iteritems():
+  max_num_in_decks = 0
+  for deck in decks:
+    max_num_in_decks = max(max_num_in_decks, deck.cards.get(card, 0))
+  num_unused = num - max_num_in_decks
+  cost = crafting_cost(card, {})
+  DISENCHANT_GAINS = {0: 0, 40: 5, 100: 20, 400: 100, 1600: 400}
+  if card == 'Old Murk-Eye':
+    disenchant_gain = 400
+  else:
+    disenchant_gain = DISENCHANT_GAINS[cost]
+  if num_unused > 0 and disenchant_gain > 0:
+    total_disenchant_gain += disenchant_gain * num_unused
+    print '  ' + card + ' (' + str(num_unused) + ' * ' + str(disenchant_gain) + ')'
+print 'Total: ' + str(total_disenchant_gain) + 'dust \n'
+
 
 sorted_decks = sorted(decks, key=lambda d : deck_cost(d.cards, COLLECTION))
 for deck in sorted_decks:
