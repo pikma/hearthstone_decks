@@ -12,12 +12,14 @@ COLLECTION = {
     'Ancient Watcher': 1,
     'Ancient of War': 1,
     'Annoy-o-Tron': 1,
+    'Argent Protector': 1,
     'Azure Drake': 1,
     'Baron Rivendare': 1,
     'Battle Rage': 2,
-    'Betrayal': 1,
+    'Betrayal': 2,
     'Blade Flurry': 1,
-    'Bloodsail Raider': 1,
+    'Bloodsail Corsair': 1,
+    'Bloodsail Raider': 2,
     'Circle of Healing': 1,
     'Cogmaster': 1,
     'Coldlight Oracle': 1,
@@ -96,6 +98,7 @@ COLLECTION = {
     'Wrath': 1,
     'Young Dragonhawk': 1,
     'Young Priestess': 1,
+    'Youthful Brewmaster': 1,
 }
 
 _CRAFTING_COSTS = get_crafting_costs()
