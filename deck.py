@@ -55,6 +55,7 @@ COLLECTION = {
     'Keeper of the Grove': 1,
     'Lightspawn': 2,
     'Loatheb': 1,
+    'Mad Scientist': 2,
     'Maexxna': 1,
     'Mana Wraith': 1,
     'Mana Wyrm': 1,
