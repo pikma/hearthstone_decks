@@ -1,21 +1,24 @@
 from deck_fetcher import get_decks, Deck
 from all_cards import get_crafting_costs
 
-# Map {string -> int}. Contains only the non-free cards.
+
+# My collection of cards. It only contains the non-free cards.
 COLLECTION = {
     'Abomination': 0,
     'Abusive Sergeant': 2,
     'Acolyte of Pain': 2,
-    'Aldor Peacekeeper': 1,
+    'Aldor Peacekeeper': 2,
     'Alexstrasza': 1,
     'Amani Berserker': 2,
     'Ancestor\'s Call': 1,
     'Ancient Watcher': 1,
     'Ancient of War': 1,
     'Annoy-o-Tron': 1,
-    'Argent Protector': 1,
+    'Arathi Weaponsmith': 1,
+    'Argent Protector': 2,
     'Argent Squire': 2,
     'Azure Drake': 1,
+    'Bane of Doom': 1,
     'Baron Rivendare': 1,
     'Battle Rage': 2,
     'Betrayal': 0,
@@ -28,41 +31,49 @@ COLLECTION = {
     'Coldlight Oracle': 1,
     'Coldlight Seer': 1,
     'Conceal': 1,
-    'Cruel Taskmaster': 1,
+    'Counterspell': 1,
+    'Cruel Taskmaster': 2,
     'Cult Master': 0,
     'Dancing Swords': 2,
     'Dark Iron Dwarf': 2,
     'Deathlord': 2,
     'Defender of Argus': 2,
     'Defias Ringleader': 1,
+    'Demonfire': 1,
     'Dire Wolf Alpha': 2,
     'Doomguard': 2,
+    'Druid of the Claw': 2,
     'Druid of the Fang': 0,
     'Eaglehorn Bow': 1,
+    'Earthen Ring Farseer': 1,
     'Emperor Cobra': 1,
     'Eviscerate': 1,
     'Explosive Sheep': 1,
+    'Explosive Trap': 2,
+    'Eye for an Eye': 1,
     'Faerie Dragon': 2,
-    'Fen Creeper': 0,
+    'Fen Creeper': 1,
     'Feugen': 1,
     'Flame Imp': 2,
     'Flesheating Ghoul': 0,
     'Forked Lightning': 0,
     'Freezing Trap': 1,
     'Frost Elemental': 0,
+    'Gladiator\'s Longbow': 1,
     'Glaivezooka': 2,
     'Grommash Hellscream': 1,
     'Harvest Golem': 2,
     'Haunted Creeper': 2,
     'Holy Fire': 1,
-    'Holy Wrath': 0,
+    'Holy Wrath': 1,
     'Ice Barrier': 1,
-    'Ice Lance': 1,
-    'Injured Blademaster': 1,
+    'Ice Lance': 2,
+    'Injured Blademaster': 2,
     'Inner Fire': 2,
     'Iron Sensei': 0,
     'Ironbeak Owl': 2,
     'Keeper of the Grove': 1,
+    'Kidnapper': 1,
     'Knife Juggler': 2,
     'Leper Gnome': 2,
     'Lightspawn': 0,
@@ -70,29 +81,40 @@ COLLECTION = {
     'Mad Bomber': 1,
     'Mad Scientist': 2,
     'Maexxna': 1,
-    'Mana Wraith': 0,
+    'Mana Wraith': 1,
     'Mana Wyrm': 1,
+    'Mark of Nature': 1,
     'Mechanical Yeti': 1,
     'Metaltooth Leaper': 0,
+    'Mind Control Tech': 1,
     'Misdirection': 1,
     'Mogu\'shan Warden': 0,
     'Naturalize': 2,
     'Nerub\'ar Weblord': 2,
     'Nerubian Egg': 2,
     'Noble Sacrifice': 0,
+    'Patient Assassin': 2,
+    'Pint-Sized Summoner': 2,
     'Power Overwhelming': 1,
-    'Power of the Wild': 1,
+    'Power of the Wild': 2,
     'Preparation': 1,
+    'Priestess of Elune': 1,
     'Puddlestomper': 1,
     'Raging Worgen': 2,
+    'Savannah Highmane': 1,
     'Scarlet Crusader': 1,
-    'Scavenging Hyena': 1,
-    'Secretkeeper': 0,
+    'Scavenging Hyena': 2,
+    'Secretkeeper': 1,
     'Shadowstep': 1,
-    'Shieldbearer': 1,
+    'Shieldbearer': 2,
     'Siege Engine': 0,
     'Silence': 0,
+    'Silvermoon Guardian': 1,
+    'Siphon Soul': 1,
+    'Slam': 2,
     'Sludge Belcher': 2,
+    'Soul of the Forest': 1,
+    'Southsea Deckhand': 1,
     'Spectral Knight': 2,
     'Spellbender': 0,
     'Spellbreaker': 1,
@@ -101,25 +123,30 @@ COLLECTION = {
     'Stampeding Kodo': 1,
     'Stoneskin Gargoyle': 2,
     'Stormforged Axe': 2,
-    'Summoning Portal': 0,
+    'Summoning Portal': 1,
     'Sunwalker': 2,
     'Tauren Warrior': 0,
     'Temple Enforcer': 1,
-    'Thrallmar Farseer': 0,
+    'Thoughtsteal': 1,
+    'Thrallmar Farseer': 1,
     'Twisting Nether': 0,
     'Unstable Ghoul': 2,
-    'Windfury': 2,
-    'Wisp': 1,
+    'Venture Co. Mercenary': 1,
     'Wailing Soul': 2,
+    'Windfury': 2,
+    'Wisp': 2,
     'Worgen Infiltrator': 2,
     'Wrath': 1,
     'Young Dragonhawk': 0,
-    'Young Priestess': 1,
+    'Young Priestess': 2,
     'Youthful Brewmaster': 1,
 }
 
+
 _CRAFTING_COSTS = get_crafting_costs()
 print 'Got ' + str(len(_CRAFTING_COSTS)) + ' cards'
+
+
 def crafting_cost(card, collection):
   if card == 'Old Murk-Eye':
     return deck_cost({
@@ -135,7 +162,6 @@ def crafting_cost(card, collection):
   return _CRAFTING_COSTS[card]
 
 
-
 def deck_cost(deck_cards, collection):
   cost = 0
   for card, number in deck_cards.iteritems():
@@ -143,6 +169,7 @@ def deck_cost(deck_cards, collection):
     if number_to_craft > 0:
       cost += number_to_craft * crafting_cost(card, collection)
   return cost
+
 
 def print_deck(deck, collection):
   cards_str = []
@@ -162,6 +189,7 @@ def print_deck(deck, collection):
       + '\n  ' + deck.last_update
       + ''.join(
         ['\n    ' + card_str for card_str in cards_str]))
+
 
 decks = get_decks()
 print 'Got ' + str(len(decks)) + ' decks\n'
