@@ -5,11 +5,12 @@ from util import *
 
 CARD_SETS = [
   u'Classic',
-  u'Curse of Naxxramas',
+  u'Naxxramas',
   u'Blackrock Mountain',
   u'Basic',
   u'Promotion',
   u'Goblins vs Gnomes',
+  u'The Grand Tournament',
 ]
 
 CRAFTING_COSTS = {
